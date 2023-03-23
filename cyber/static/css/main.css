@@ -1,0 +1,21 @@
+.side {
+    width: 15%;
+    height: 600px;
+    background-color: mediumseagreen;
+    position: fixed;
+}
+
+.side a {
+    color: whitesmoke;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+.side a:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.main {
+    margin-left: 500px;
+}

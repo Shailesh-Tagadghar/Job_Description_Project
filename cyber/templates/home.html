@@ -1,0 +1,8 @@
+{%extends 'sidebar.html'%}
+{%block "body"%}
+<h1 style="color: whitesmoke;">Welcome to Job Notification Web Application</h1>
+
+{%if user.is_authenticated%}
+<h2 style="color: aqua;">Welcome {{user}}</h2>
+{%endif%}
+{%endblock%}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{%extends 'sidebar.html'%}
+{%load static%}
+<html>
+
+<head>
+    <title>follow</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .middle {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            text-align: center;
+        }
+
+        .btn {
+            width: 2000px;
+            height: 200px;
+            background: #f1f1f1;
+            margin: 20px;
+            border-radius: 50%;
+            box-shadow: 0 5px 15px -5px #00000070;
+            color: #3498db;
+            overflow: hidden;
+            position: relative;
+        }
+    </style>
+</head>
+{%block "body"%}
+
+<body background="{% static 'css/shailesh.png' %}">
+    <div class="middle">
+        <a class="btn" href="#">
+            <img src="{% static 'css/fb.jfif' %}" height="70px" width="70px">
+        </a>
+        <a class="btn" href="#">
+            <img src="{% static 'css/gp.jfif' %}" height="70px" width="70px">
+        </a>
+        <a class="btn" href="#">
+            <img src="{% static 'css/tw.jfif' %}" height="70px" width="70px">
+        </a>
+        <a class="btn" href="#">
+            <img src="{% static 'css/in.jfif' %}" height="70px" width="70px">
+        </a>
+        <a class="btn" href="#">
+            <img src="{% static 'css/yt.jfif' %}" height="70px" width="70px">
+        </a>
+    </div>
+    <div>
+        <button class="a"><a href="/">Home</a></button>
+    </div>
+</body>
+{%endblock%}
+
+</html>
